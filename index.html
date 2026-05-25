@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoreCode | Soluções Digitais de Alta Performance</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link class="revelar" rel="icon" type="image/png" href="img/icone_logo.png">
+</head>
+<body>
+
+    <!-- ==========================================
+         HEADER / NAVEGAÇÃO
+         ========================================== -->
+    <header class="header-ilha">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="img/logo transparente.png" alt="Ícone Corecode" class="logo-img">
+                </a>
+            </div>
+
+            <div class="menu-toggle" role="button" aria-label="Abrir menu" onclick="abrirMenu()" style="cursor: pointer; z-index: 999999;">
+                <svg viewBox="0 0 24 24" width="35" height="35" stroke="#00FFFF" stroke-width="2.5" fill="none">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+
+            <nav id="nav-links" class="nav-movel">
+                <a href="#home" onclick="abrirMenu()">Home</a>
+                <a href="#sobre" onclick="abrirMenu()">Sobre</a>
+                <a href="#servicos" onclick="abrirMenu()">Serviços</a>
+                <a href="#portfolio" onclick="abrirMenu()">Portfólio</a>
+                <a href="#contato" class="btn-contato-nav" onclick="abrirMenu()">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         SEÇÃO 1: HERO PRINCIPAL (Home)
+         ========================================== -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="revelar">Transformamos ideias em<br> <span class="destaque">experiências digitais de alto padrão.</span></h1>
+            <p class="revelar">Desenvolvimento web sob medida, design minimalista e performance extrema para marcas líderes de mercado.</p>
+            <div class="hero-botoes revelar">
+                <a href="#contato" class="btn-primary">Iniciar Projeto</a>
+                <a href="#portfolio" class="btn-secondary">Ver Portfólio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SEÇÃO 2: INSTITUCIONAL & VALORES (Sobre)
+         ========================================== -->
+    <section id="sobre" class="sobre-hero">
+        <div class="container">
+            <h1 class="revelar">Onde a tecnologia encontra a <span class="destaque">estratégia.</span></h1>
+            <p class="revelar">Não apenas escrevemos lines de código; nós mergulhamos na essência do seu negócio para construir plataformas digitais robustas, escaláveis e focadas em conversão. Nosso objetivo é transformar a sua presença online em uma máquina de resultados, combinando design de alto padrão com engenharia de software de ponta para posicionar sua marca à frente da concorrência.</p>
+        </div>
+    </section>
+
+    <section class="nossa-missao">
+        <div class="container grid-sobre">
+            <div class="sobre-texto revelar-esquerda">
+                <h2>Nossa <span>Visão</span></h2>
+                <p>A CoreCode nasceu da necessidade de entregar soluções digitais que não sejam apenas "bonitas", mas que funcionem como engrenagens de crescimento. No mercado atual, ter um site é o básico. Ter uma experiência de alta performance é o diferencial.</p>
+                <p>Nossa equipe une design focado no usuário e engenharia de software de ponta para garantir que cada pixel tenha um propósito.</p>
+            </div>
+            <div class="sobre-imagem revelar">
+                <div class="placeholder-img">
+                    <img src="img/fundo_sobre.png" alt="Tecnologia CoreCode">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="valores">
+        <div class="container">
+            <div class="valores-grid">
+                <div class="valor-card revelar">
+                    <h3>Performance</h3>
+                    <p>Sites lentos perdem vendas. Otimizamos cada linha para velocidade máxima.</p>
+                </div>
+                <div class="valor-card revelar">
+                    <h3>Inovação</h3>
+                    <p>Sempre utilizando as tecnologias mais modernas do mercado global.</p>
+                </div>
+                <div class="valor-card revelar">
+                    <h3>Parceria</h3>
+                    <p>Não somos apenas fornecedores, somos o braço tecnológico do seu sucesso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SEÇÃO 3: LISTA COMPLETA DE SERVIÇOS (Serviços)
+         ========================================== -->
+    <section id="servicos" class="servicos-hero">
+        <div class="container">
+            <h1 class="revelar">Soluções digitais de <br> <span class="destaque">alta performance.</span></h1>
+            <p class="revelar">Desenvolvemos produtos sob medida para marcas que exigem excelência, velocidade e design impecável.</p>
+        </div>
+    </section>
+
+    <section class="servicos-lista">
+        <div class="container">
+            
+            <div class="servico-item revelar">
+                <div class="servico-icone">01</div>
+                <div class="servico-conteudo">
+                    <h2>Landing Pages de <span class="destaque">Conversão</span></h2>
+                    <p>Páginas de vendas e captura de leads projetadas com gatilhos mentais visuais, carregamento ultrarrápido e foco absoluto em transformar visitantes em clientes reais. Ideal para lançamentos, campanhas de tráfego pago e captação agressiva.</p>
+                    <ul class="servico-features">
+                        <li>Design Exclusivo e Focado em UX</li>
+                        <li>Otimização Extrema de Velocidade</li>
+                        <li>Integração com CRMs e Pixel</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="servico-item revelar">
+                <div class="servico-icone">02</div>
+                <div class="servico-conteudo">
+                    <h2>Websites <span class="destaque">Corporativos</span></h2>
+                    <p>O seu site é a sede da sua empresa na internet. Construímos sites institucionais robustos, com navegação fluida, painel administrativo personalizado e SEO técnico embarcado para dominar as buscas do Google.</p>
+                    <ul class="servico-features">
+                        <li>Painel de Controle Próprio</li>
+                        <li>Estrutura Blindada para SEO</li>
+                        <li>Responsividade Perfeita (Mobile First)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="servico-item revelar">
+                <div class="servico-icone">03</div>
+                <div class="servico-conteudo">
+                    <h2>Sistemas Web <span class="destaque">Sob Medida</span></h2>
+                    <p>Quando as plataformas prontas não atendem mais o seu nível de exigência. Desenvolvemos dashboards, portais de clientes, sistemas de gestão e aplicações web completas do zero, escaláveis e seguras.</p>
+                    <ul class="servico-features">
+                        <li>Arquitetura Escalável</li>
+                        <li>Bancos de Dados Seguros</li>
+                        <li>Automatização de Processos Internos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="servico-item revelar">
+                <div class="servico-icone">04</div>
+                <div class="servico-conteudo">
+                    <h2>UI/UX <span class="destaque">Design</span></h2>
+                    <p>Criamos interfaces centradas no usuário que unem estética premium e usabilidade intuitiva. Cada detalhe é planejado para maximizar a conversão e proporcionar uma jornada de navegação impecável.</p>
+                    <ul class="servico-features">
+                        <li>Interfaces Intuitivas</li>
+                        <li>Design System Exclusivo</li>
+                        <li>Experiência de Usuário Fluida (UX)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="servico-item revelar">
+                <div class="servico-icone">05</div>
+                <div class="servico-conteudo">
+                    <h2>Alta <span class="destaque">Performance</span></h2>
+                    <p>Em projetos de alto nível, cada milissegundo conta. Desenvolvemos com arquitetura de ponta e código limpo, garantindo carregamento ultrarrápido, excelente SEO e estabilidade total para o seu site.</p>
+                    <ul class="servico-features">
+                        <li>Carregamento Ultrarrápido</li>
+                        <li>Otimização de SEO Técnico</li>
+                        <li>Código Clean e Moderno</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="servico-item revelar">
+                <div class="servico-icone">06</div>
+                <div class="servico-conteudo">
+                    <h2>Automação e <span class="destaque">APIs</span></h2>
+                    <p>Elimine o trabalho manual e os processos que travam o seu crescimento. Integramos suas ferramentas e sistemas através de APIs seguras, fazendo o seu negócio rodar no piloto automático.</p>
+                    <ul class="servico-features">
+                        <li>Sincronização de Dados</li>
+                        <li>Conexão com Sistemas Externos</li>
+                        <li>Fluxos de Trabalho Inteligentes</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SEÇÃO 4: DIFERENCIAIS DA HOME
+         ========================================== -->
+    <section class="especialidades">
+        <div class="container">
+            <h2 class="revelar-esquerda text-center">Por que escolher a <span>CoreCode?</span></h2>
+            <div class="especialidades-grid">
+                <div class="especialidade-card revelar">
+                    <div class="esp-header">
+                        <h3>Design Exclusivo</h3>
+                    </div>
+                    <p>Não usamos templates prontos. Cada projeto é desenhado do zero para refletir a essência da sua marca com estética premium.</p>
+                </div>
+                <div class="especialidade-card revelar">
+                    <div class="esp-header">
+                        <h3>Código Limpo e Seguro</h3>
+                    </div>
+                    <p>Desenvolvimento com as tecnologias mais modernas, garantindo escalabilidade, segurança contra invasões and facilidade de manutenção.</p>
+                </div>
+                <div class="especialidade-card revelar">
+                    <div class="esp-header">
+                        <h3>Foco em Conversão</h3>
+                    </div>
+                    <p>Alinhamos beleza e estratégia. Nossas interfaces são estruturadas para guiar o usuário até a ação final: a compra ou o contato.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SEÇÃO 5: GALERIA DE CASES (Portfólio)
+         ========================================== -->
+    <section id="portfolio" class="portfolio-hero">
+        <div class="container">
+            <h1 class="revelar">Nossos <span class="destaque">Projetos</span></h1>
+            <p class="revelar">Uma seleção de trabalhos que unem design sofisticado, tecnologia de ponta e resultados reais.</p>
+        </div>
+    </section>
+
+    <section class="portfolio-lista">
+        <div class="container">
+            <div class="portfolio-grid">
+
+
+                <div class="portfolio-card revelar">
+                    <iframe src="https://www.patadeurso.com.br/" width="100%" height="300px" frameborder="0">
+                        Seu navegador não suporta iframes.
+                      </iframe>
+                      <div class="portfolio-content">
+                        <h3><a href="https://www.patadeurso.com.br/" style="color: var(--cor-texto-principal);" target="_blank">Pata de Urso</a></h3>
+                        <p>Landing page de alta conversão desenvolvida para apresentação da banda e show.</p>
+                        <div class="tags">
+                            <span>UI/UX Design</span>
+                            <span>Otimização</span>
+                        </div>
+                    </div>                      
+                </div>
+                
+
+                <div class="portfolio-card revelar">
+                    <iframe src="https://mkstechsolutions.github.io/mkslp/" width="100%" height="300px" frameborder="0">
+                        Seu navegador não suporta iframes.
+                      </iframe>
+                      <div class="portfolio-content">
+                        <h3><a href="https://mkstechsolutions.github.io/mkslp/" style="color: var(--cor-texto-principal);" target="_blank">MKS Tech Solutions</a></h3>
+                        <p>Landing page de alta nivel de conversao de clientes.</p>
+                        <div class="tags">
+                            <span>UI/UX Design</span>
+                            <span>Otimização</span>
+                            <span>Moderno</span>
+                        </div>
+                    </div>                      
+                </div>
+
+                <div class="portfolio-card revelar">
+                    <img src="img/projeto_1.png" alt="Lançamento Tech" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <h3>Lançamento Tech</h3>
+                        <p>Landing page de alta conversão desenvolvida para um infoproduto de inteligência artificial.</p>
+                        <div class="tags">
+                            <span>UI/UX Design</span>
+                            <span>Otimização</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card revelar">
+                    <img src="img/projeto_2.png" alt="Boutique Elegance" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <h3>Boutique Elegance</h3>
+                        <p>E-commerce minimalista focado em experiência mobile para marca de moda de luxo.</p>
+                        <div class="tags">
+                            <span>E-commerce</span>
+                            <span>Mobile First</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card revelar">
+                    <img src="img/projeto_3.png" alt="Gestão Pro" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <h3>Gestão Pro</h3>
+                        <p>Dashboard administrativo sob medida para controle de fluxo de caixa e automação de relatórios.</p>
+                        <div class="tags">
+                            <span>Sistema Web</span>
+                            <span>Dashboard</span>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card revelar">
+                    <img src="img/projeto_4.png" alt="Advocacia Prime" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <h3>Advocacia Prime</h3>
+                        <p>Website institucional focado em SEO técnico para posicionamento orgânico no Google.</p>
+                        <div class="tags">
+                            <span>Institucional</span>
+                            <span>SEO Técnico</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SEÇÃO 6: FORMULÁRIO DE CAPTAÇÃO (Contato)
+         ========================================== -->
+    <section id="contato" class="contato-section">
+        <div class="container grid-contato">
+            <div class="contato-info revelar-esquerda">
+                <h2>Vamos construir algo <span>extraordinário</span> juntos?</h2>
+                <p>Preencha o formulário para agendar um diagnostic gratuito da presença digital do seu negócio.</p>
+                <div class="contato-direto">
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5551993028773" target="_blank" style="color: var(--cor-accent-hover);">(51) 99302-8773</a></p>
+                </div>
+            </div>
+            <div class="contato-formulario revelar">
+                <!-- FORMULÁRIO COM LOGICA DO FORMSPREE MANTENDO A SUA ESTRUTURA PROFISSONAL -->
+                <form action="https://formspree.io/f/xzdokbab" method="POST">
+                    <!-- Redirecionamento opcional pós-envio para o seu ambiente local -->
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="whatsapp">WhatsApp</label>
+                        <input type="tel" id="whatsapp" name="whatsapp" placeholder="(00) 00000-0000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Fale resumidamente sobre o seu projeto..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SEÇÃO FINAL: CHAMADA CTA EXTRA
+         ========================================== -->
+    <section class="cta-section revelar">
+        <div class="container cta-box">
+            <h2>Pronto para tirar o seu projeto do papel?</h2>
+            <p>Fale com nossa equipe de especialistas e descubra como podemos acelerar o seu negócio.</p>
+            <a href="#contato" class="btn-primary">Solicitar Orçamento</a>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER UNIFICADO
+         ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-layout">
+                <div class="footer-side left-side">
+                    <div class="footer-column">
+                        <h3>Navegação</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#portfolio">Portfólio</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contato</h3>
+                        <ul>
+                            <li><a href="https://wa.me/5551993028773" target="_blank" >WhatsApp</a></li>
+                            <li><a href="mailto:contato@somoscorecode.com.br">E-mail</a></li>
+                            <li><a href="https://instagram.com/corecode.tech" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <a href="#home" class="footer-logo" title="Voltar ao topo">
+                        <img src="img/logo transparente.png" alt="CoreCode Logo" class="footer-logo-img">
+                    </a>
+                </div>
+                <div class="footer-side right-side">
+                    <div class="footer-column">
+                        <h3>Serviços</h3>
+                        <ul>
+                            <li><a href="#servicos">Landing Pages</a></li>
+                            <li><a href="#servicos">Desenvolvimento Web</a></li>
+                            <li><a href="#servicos">Sistemas sob Medida</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#">Termos de Uso</a></li>
+                            <li><a href="#">Políticas de Privacidade</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 <a href="https://www.instagram.com/corecode.tech" style="color: var(--cor-accent-hover);" target="_blank">CoreCode</a>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Importação do arquivo de scripts separado -->
+    <script src="script.js"></script>
+</body>
+</html>
